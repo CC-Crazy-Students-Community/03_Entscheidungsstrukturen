@@ -33,7 +33,7 @@ if ( isJohnOlder ) {                            // logische Abfragen sind True o
 }
 
 
-/* Ternäre Schreibweise eines if else Statements*/
+/* Ternäre Schreibweise eines if else Statements */
 console.log( (isJohnOlder) ? "John ist älter" : "John ist jünger" );
 
 /**********   if elseif else    **********/
