@@ -5,7 +5,7 @@
 /*********   Entscheidungsstrukturen | control flow   **********/
 /***************************************************************/
 /* Deklaration + Assigment */
-    const ageJohn = 35;
+    const ageJohn = 25;
     const ageMark = 30;
 
 /* Deklaration */
@@ -22,12 +22,14 @@
     console.log("isJohnEqual: " + isJohnEqual);
     console.log("------------------");
 
+
 /***************************************************************/
 /*********            einfache if Abfrage             **********/
 /***************************************************************/
     if ( isJohnOlder ) {                                // logische Abfragen sind True oder Fasle, somit geht das auch ohne Wert oder mit Wert von if ( isJohnOlder == true ) {
         console.log( "John ist älter" );                // Ja Zweig, wenn die if Condition erreicht ist, dann kommt das zum Tragen
     }
+
 
 /***************************************************************/
 /*********          einfache if else Abfrage          **********/
@@ -39,6 +41,7 @@
     }
 /* Ternäre Schreibweise eines if else Statements */
     console.log( (isJohnOlder) ? "John ist älter" : "John ist jünger" );
+
 
 /***************************************************************/
 /*********           if elseif else Abfrage           **********/
@@ -54,10 +57,45 @@
     console.log( (isJohnOlder) ? "John ist älter" : (isJohnEqual) ? "John ist gleich alt" : "John ist jünger" );
 
 
+/***************************************************************/
+/*********   if elseif else Alternative switch case   **********/
+/***************************************************************/
+    const firstName = "Jane";
+    let job;
+
+    job = "driver";                                     // .. fährt TAXI! / UBER
+    job = "diver";                                      // .. taucht im Rhein!
+    job = "artist";                                     // .. malt ein Bild!
+    job = "pilot";                                      // .. macht etwas anderes! --> default
+    job = "teacher";                                    // .. unterrichtet!
+    job = "instructor";                                 // .. unterrichtet!
+
+switch (job) {
+    case driver:
+        console.log( firstName + " fährt TAXI! / UBER" ); 
+        break;
+    case diver:
+        console.log( firstName + " taucht im Rhein!" ); 
+        break;
+    case artist:
+        console.log( firstName + " malt ein Bild!" ); 
+        break;
+    case teacher:
+        console.log( firstName + " unterrichtet!" ); 
+        break;
+    case teacher:
+        console.log( firstName + " unterrichtet!" ); 
+        break;
+    default:
+        console.log( firstName + " macht etwas anderes!" );
+        break;
+}
+
+
 /*
     Ternäre Schreibweise erklärt:
     (let foo kann auch einfach ein console.log sein)
-    
+
                 Operand 1    Operand 2   Operand 3
                    |            |           |
     let foo = (Bedingung) ? wenn true : wenn false;
