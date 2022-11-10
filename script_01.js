@@ -70,25 +70,43 @@
     // job = "teacher";                                    // .. unterrichtet!
     // job = "instructor";                                 // .. unterrichtet!
 
-switch (job) {                                                      // wenn variabel job...
-    case "driver":                                                  // ... ist driver
-        console.log( firstName + " fährt TAXI! / UBER" );               // dann Ausgabe
-        break;                                                          // wenn Ausgabe fertig dann brich den switch ab
-    case "diver":                                                   // ... ist diver
-        console.log( firstName + " taucht im Rhein!" );                 // dann Ausgabe
-        break;                                                          // wenn Ausgabe fertig dann brich den switch ab
-    case "artist":                                                  // ... ist artist
-        console.log( firstName + " malt ein Bild!" );                   // dann Ausgabe
-        break;                                                          // wenn Ausgabe fertig dann brich den switch ab
-    case "teacher":                                                 // ... ist teacher
-    case "instructor":                                              // oder ist instructor
-        console.log( firstName + " unterrichtet!" );                    // dann Ausgabe
-        break;                                                          // wenn Ausgabe fertig dann brich den switch ab
-    default:                                                        // ... nicht oder gar nicht definiert
-        console.log( firstName + " strickt Boxershorts!" );             // dann Standart Ausgabe, kommt bei allen Fällen die keinen Case haben
-        break;                                                          // wenn Ausgabe fertig dann brich den switch ab
-}
+    switch (job) {                                                      // wenn variabel job...
+        case "driver":                                                  // ... ist driver
+            console.log( firstName + " fährt TAXI! / UBER" );               // dann Ausgabe
+            break;                                                          // wenn Ausgabe fertig dann brich den switch ab
+        case "diver":                                                   // ... ist diver
+            console.log( firstName + " taucht im Rhein!" );                 // dann Ausgabe
+            break;                                                          // wenn Ausgabe fertig dann brich den switch ab
+        case "artist":                                                  // ... ist artist
+            console.log( firstName + " malt ein Bild!" );                   // dann Ausgabe
+            break;                                                          // wenn Ausgabe fertig dann brich den switch ab
+        case "teacher":                                                 // ... ist teacher
+        case "instructor":                                              // oder ist instructor
+            console.log( firstName + " unterrichtet!" );                    // dann Ausgabe
+            break;                                                          // wenn Ausgabe fertig dann brich den switch ab
+        default:                                                        // ... nicht oder gar nicht definiert
+            console.log( firstName + " strickt Boxershorts!" );             // dann Standart Ausgabe, kommt bei allen Fällen die keinen Case haben
+            break;                                                          // wenn Ausgabe fertig dann brich den switch ab
+    }
 
+
+/***************************************************************/
+/*********  if elseif else Alternative switch case 2  **********/
+/***************************************************************/
+    const cond = true;
+    const a = 2;
+
+    switch (cond) {
+        case (a == 1):
+            console.log("a ist gleich 1")
+            break;
+        case (a == 2):
+            console.log("a ist gleich 2")
+            break;
+        default:
+            console.log("a hat einen anderen Wert")
+            break;
+    }
 
 /*
     Ternäre Schreibweise erklärt:
