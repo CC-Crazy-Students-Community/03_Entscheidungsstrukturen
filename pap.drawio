@@ -189,7 +189,7 @@
                 <mxCell id="ePnOEDz-q3o3Hu1mMtfP-4" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sM3O0pvL-J6C8m5YZxhi-1" source="ePnOEDz-q3o3Hu1mMtfP-0" target="sM3O0pvL-J6C8m5YZxhi-13">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ePnOEDz-q3o3Hu1mMtfP-0" value="a &amp;lt; b" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="sM3O0pvL-J6C8m5YZxhi-1">
+                <mxCell id="ePnOEDz-q3o3Hu1mMtfP-0" value="1. Abfrage&lt;br&gt;a &amp;lt; b" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="sM3O0pvL-J6C8m5YZxhi-1">
                     <mxGeometry x="100" y="160" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="ePnOEDz-q3o3Hu1mMtfP-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sM3O0pvL-J6C8m5YZxhi-1" source="ePnOEDz-q3o3Hu1mMtfP-1" target="sM3O0pvL-J6C8m5YZxhi-22">
@@ -198,7 +198,7 @@
                 <mxCell id="ePnOEDz-q3o3Hu1mMtfP-7" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sM3O0pvL-J6C8m5YZxhi-1" source="ePnOEDz-q3o3Hu1mMtfP-1" target="sM3O0pvL-J6C8m5YZxhi-27">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ePnOEDz-q3o3Hu1mMtfP-1" value="a &amp;lt; b" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="sM3O0pvL-J6C8m5YZxhi-1">
+                <mxCell id="ePnOEDz-q3o3Hu1mMtfP-1" value="2. Abfrage&lt;br&gt;a == b" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="sM3O0pvL-J6C8m5YZxhi-1">
                     <mxGeometry x="500" y="160" width="80" height="80" as="geometry"/>
                 </mxCell>
             </root>
