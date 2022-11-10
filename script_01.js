@@ -94,10 +94,14 @@ switch (job) {                                                      // wenn vari
     Ternäre Schreibweise erklärt:
     (let foo kann auch einfach ein console.log sein)
 
+
+    einfache if else Ternärität
                 Operand 1    Operand 2   Operand 3
                    |            |           |
     let foo = (Bedingung) ? wenn true : wenn false;
 
+
+    weiterführende if elseif else Ternärität
                 Operand 1    Operand 2             Operand 3          Operand 4    Operand 5
                    |            |                     |                  |             |
     let foo = (Bedingung) ? wenn true : (wenn false - 2. Bedingung) ? wenn true : wenn false;
