@@ -1,4 +1,4 @@
-# 03_Entscheidungsstrukturen
+# Entscheidungsstrukturen
 
 ## oder auch conditional structures / control flow
 
@@ -9,3 +9,4 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
 
 
+###### sandrosimperl.cc@gmail.com
