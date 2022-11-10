@@ -32,6 +32,10 @@ if ( isJohnOlder ) {                            // logische Abfragen sind True o
     console.log( "John ist jünger" );           // Sonst Zweig, wenn erste Abfrage nicht erreicht, dann kommt das else zum Tragen
 }
 
+
+/* Ternäre Schreibweise eines if else Statements*/
+console.log( (isJohnOlder) ? "John ist älter" : "John ist jünger" );
+
 /**********   if elseif else    **********/
 if ( isJohnOlder ) {                            // logische Abfragen sind True oder Fasle, somit geht das auch ohne Wert oder mit Wert von if ( isJohnOlder == true ) {
     console.log( "John ist älter" );            // Ja Zweig, wenn das if Condition erreicht ist, dann kommt das zum Tragen
