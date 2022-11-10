@@ -57,6 +57,7 @@
 /*
     Ternäre Schreibweise erklärt:
     (let foo kann auch einfach ein console.log sein)
+    
                 Operand 1    Operand 2   Operand 3
                    |            |           |
     let foo = (Bedingung) ? wenn true : wenn false;
