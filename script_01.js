@@ -1,6 +1,4 @@
 "use strict";
-
-
 /***************************************************************/
 /*********   Entscheidungsstrukturen | control flow   **********/
 /***************************************************************/
@@ -109,8 +107,8 @@
     }
 
 /*
-    Ternäre Schreibweise erklärt:
-    (let foo kann auch einfach ein console.log sein)
+    Ternäre Schreibweise erklärt: 
+        (let foo kann auch einfach ein console.log sein)
 
 
     einfache if else Ternärität
