@@ -85,7 +85,7 @@ switch (job) {                                                      // wenn vari
         console.log( firstName + " unterrichtet!" );                    // dann Ausgabe
         break;                                                          // wenn Ausgabe fertig dann brich den switch ab
     default:                                                        // ... nicht oder gar nicht definiert
-        console.log( firstName + " macht etwas anderes!" );             // dann Standart Ausgabe, kommt bei allen Fällen die keinen Case haben
+        console.log( firstName + " strickt Boxershorts!" );             // dann Standart Ausgabe, kommt bei allen Fällen die keinen Case haben
         break;                                                          // wenn Ausgabe fertig dann brich den switch ab
 }
 
