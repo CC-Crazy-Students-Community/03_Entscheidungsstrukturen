@@ -50,3 +50,15 @@
     } else {                                        // logische Abfrage DANN
         console.log( "John ist jünger" );           // Sonst Zweig, wenn erste Abfrage nicht erreicht, dann kommt das else zum Tragen
 }   
+/* Ternäre Schreibweise eines if elseif else Statements */
+    console.log( (isJohnOlder) ? "John ist älter" : (isJohnEqual) ? "John ist gleich alt" : "John ist jünger" );
+
+
+/*
+    Ternäre Schreibweise erklärt:
+                Operand 1    Operand 2   Operand 3
+                   |            |           |
+    let foo = (Bedingung) ? wenn true : wenn false;
+
+    let foo kann auch einfach ein console.log sein
+*/
