@@ -118,7 +118,7 @@
 
 
     weiterführende if elseif else Ternärität
-                Operand 1    Operand 2             Operand 3          Operand 4    Operand 5
+                Operand 1    Operand 2             Operand 3          Operand 4     Operand 5
                    |            |                     |                  |             |
     let foo = (Bedingung) ? wenn true : (wenn false - 2. Bedingung) ? wenn true : wenn false;
 */
